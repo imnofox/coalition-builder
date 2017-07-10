@@ -26,8 +26,15 @@ ul {
 #container {
   display: flex;
   flex-direction: row;
+}
+
+#container, body > p {
   width: 700px;
   margin: auto;
+}
+
+body > p {
+  text-align: center;
 }
 
 #container > * {
