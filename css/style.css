@@ -35,6 +35,7 @@ ul {
 
 body > p {
   text-align: center;
+  margin: 5px auto;
 }
 
 #container > * {
