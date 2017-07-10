@@ -185,14 +185,14 @@ function notes(indexes) {
         body: "NZ First and United Future's mutual anomisity is well known- could they actually work together?"
       };
       break;
-    case '0-3-5':
+    case '0-3-4':
       response = {
         title: "Is It Possible?",
         body: "NZ First and Act's mutual anomisity is well known- could they actually work together?"
       };
       break;
-    case '0-3-4':
-    case '1-2-3-4':
+    case '0-3-5':
+    case '1-2-3-5':
       response = {
         title: "Racial Tensions",
         body: "New Zealand First has often been hostile to what it calls the Maori Party's support for 'race-based law', throwing into question such a coalition.<Br>However, the Maori Party has managed to work with National for 9 years, so working with NZ First isn't quite as far-fetched as we thought."
