@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Slabo 13px', serif;
+}
+
+h1 {
+  font-family: 'Quando', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #0057b8;
+  margin: 0 0 10px 0;
+  padding: 25px 0;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-family: 'Stint Ultra Expanded';
+  margin: 20px 0;
+}
+
+ul {
+  margin-top: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  margin: auto;
+}
+
+#container > * {
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+#parties {
+  flex: 2;
+  position: relative;
+}
+
+#graph {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 10px;
+}
+
+#notes {
+  flex: 2;
+  padding: 0 30px;
+}
+
+#seats {
+  width: 30px;
+  height: 22px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#seats.enough {
+  color: #00ff00;
+}
+
+#canvas {
+  background-color: #ccc;
+  width: 30px;
+  height: 300px;
+}
+
+#loader {
+  position: absolute;
+  width: 40px;
+  top: 50%;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+
+  color: #fff;
+  background-color: #e4002b;
+  padding: 25px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  font-style: italic;
+}
+
+footer p {
+  margin: 0;
+}

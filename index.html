@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>2017 NZ Coalition Builder</title>
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Slabo+13px|Stint+Ultra+Expanded|Quando'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <h1>2017 NZ Coalition Builder</h1>
+
+  <div id="container">
+    <ul id="parties">
+      <h3>Parties</h3>
+      <div id="loader" title="1">
+        <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           width="40px" height="40px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+        <path fill="#000" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z">
+          <animateTransform attributeType="xml"
+            attributeName="transform"
+            type="rotate"
+            from="0 25 25"
+            to="360 25 25"
+            dur="0.6s"
+            repeatCount="indefinite"/>
+          </path>
+        </svg>
+      </div>
+    </ul>
+    <div id="graph">
+      <div id="seats">0</div>
+      <div id="canvas"></div>
+    </div>
+    <div id="notes">
+      <h3>No majority yet</h3>
+      <p>Select more parties to form a majority</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Data from <a href="http://www.curia.co.nz/methodology/">curia.co.nz polling average</a>.</p>
+  </footer>
+
+  <script id="party-list-item" type="text/x-handlebars-template">
+    <li>
+      <label for="party-{{index}}">
+        <input id="party-{{index}}" type="checkbox" value="{{index}}">
+        <span>{{name}}</span>
+      </label>
+    </li>
+  </script>
+
+  <script id="notes-item" type="text/x-handlebars-template">
+    <h3>{{title}}</h3>
+    <p>{{{body}}}</p>
+  </script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
