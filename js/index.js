@@ -20,7 +20,7 @@ var filled = 0;
 
 $(document).ready(() => {
   $.ajax({
-    url: "https://crossorigin.me/http://www.curia.co.nz/embed/poll",
+    url: "https://crossorigin.me/http://www.curia.co.nz/embed/poll", // LOL
     type: "GET",
     success: function (data) {
       var tempData = $(data);
@@ -32,7 +32,7 @@ $(document).ready(() => {
           };
           party.colour = colours[party.name];
 
-          if (party.name == "United") {
+          if (party.name == "United") { // Let's use their full name for clarity
             party.name = "United Future";
           }
 
@@ -144,7 +144,6 @@ function doGraph(indexes) {
 
 function notes(indexes) {
   var key = indexes.reverse().join('-');
-  console.log(key);
 
   var response;
   switch(key) {
@@ -230,7 +229,6 @@ function notes(indexes) {
      };
      break;
   }
-  console.log(response);
 
   return response;
 }
