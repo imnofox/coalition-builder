@@ -7,7 +7,9 @@ const colours = {
   "NZ First": "#000",
   "Maori": "#8b0000",
   "Act": "#ffff00",
-  "United": "#800080"
+  "United": "#800080",
+  "Mana": "#E0115F",
+  "TOP": "#512888"
 };
 
 var canvas = d3
