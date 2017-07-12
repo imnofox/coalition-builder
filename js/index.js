@@ -200,8 +200,8 @@ function notes(indexes) {
       break;
     case '0-4-5':
       response = {
-        title: "Not probable",
-        body: "There's no reason National would just drop United Future from a stable government."
+        title: "Not probable, but possible",
+        body: "There's no reason National would just drop United Future from a stable government, <i>unless</i> Peter Dunne lost his Ōhāriu seat to Labour's Greg O'Connor."
       };
       break;
     case '0-5-6':
