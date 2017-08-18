@@ -22,7 +22,7 @@ var filled = 0;
 
 $(document).ready(() => {
   $.ajax({
-    url: "https://crossorigin.me/http://www.curia.co.nz/embed/poll", // LOL
+    url: "https://cors-anywhere.herokuapp.com/http://www.curia.co.nz/embed/poll", // LOL
     type: "GET",
     success: function (data) {
       var tempData = $(data);
